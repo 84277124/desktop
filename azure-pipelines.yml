@@ -1,4 +1,7 @@
 # Node.js
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'build'
 - task: AndroidSigning@3
   inputs:
     apkFiles: '**/*.apk'
