@@ -1,4 +1,9 @@
 # Node.js
+
+appendCommitMessageToRunName:
+lockBehavior:
+parameters:
+  - ks
 - task: DotNetCoreCLI@2
   inputs:
     command: 'build'
